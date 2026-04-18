@@ -116,7 +116,7 @@ const Hero = () => {
             {/* SOCIALS */}
             <div className="flex gap-4">
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/harshita-sharma-thandla/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-11 h-11 flex items-center justify-center border border-neutral-800 rounded-lg text-neutral-400 hover:text-white hover:border-neutral-600 hover:bg-neutral-900 transition"
@@ -125,7 +125,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="https://github.com/"
+                href="https://github.com/Harshita-Sharma-22"
                 target="_blank"
                 rel="noreferrer"
                 className="w-11 h-11 flex items-center justify-center border border-neutral-800 rounded-lg text-neutral-400 hover:text-white hover:border-neutral-600 hover:bg-neutral-900 transition"

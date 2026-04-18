@@ -31,8 +31,8 @@ const Projects = () => {
         "Optimized performance",
       ],
       technologies: ["React", "Tailwind", "Vite"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/Harshita-Sharma-22/react-portfolio",
+      live: "https://harshita-sharma-portfolio-react.vercel.app/",
     },
     {
       id: 2,
