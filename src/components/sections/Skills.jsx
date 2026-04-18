@@ -47,7 +47,7 @@ const Skills = () => {
 
   return (
     // FIX: added z-10 at the section level (was only on inner div before)
-    <section id="skills" className="relative z-10 px-6">
+    <section id="skills" className="relative z-10 py-10 px-6">
 
       <div className="max-w-7xl mx-auto">
 

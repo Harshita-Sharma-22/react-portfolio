@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative w-full bg-transparent text-white py-16 px-6 overflow-hidden"
+      className="relative w-full bg-transparent text-white py-10 px-6 overflow-hidden"
     >
       <div className="relative z-10">
 

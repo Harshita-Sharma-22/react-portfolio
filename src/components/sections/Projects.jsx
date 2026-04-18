@@ -146,7 +146,7 @@ images: [
   };
 
   return (
-    <section id="projects" className="relative z-10 py-16 px-6">
+    <section id="projects" className="relative z-10 py-10 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* HEADING */}
