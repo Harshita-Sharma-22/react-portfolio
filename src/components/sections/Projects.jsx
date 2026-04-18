@@ -280,6 +280,21 @@ images: [
   ))}
 </ul>
 
+<div className="flex flex-wrap items-center gap-1.5 mb-3">
+  <span className="text-[10px] text-primary uppercase tracking-wider">
+    Tech Stack:
+  </span>
+
+  {project.technologies.map((tech, idx) => (
+    <span
+      key={idx}
+      className="text-[10px] leading-none px-2 py-1 rounded-md bg-neutral-800 text-neutral-300 border border-neutral-700"
+    >
+      {tech}
+    </span>
+  ))}
+</div>
+
 <div className="flex items-center gap-3 mt-4">
   {project.github && (
     <a
@@ -305,6 +320,7 @@ images: [
     </a>
   )}
 </div>
+
                   </div>
                 </motion.div>
               );
