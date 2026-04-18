@@ -41,9 +41,7 @@ const Projects = () => {
       level: "Advanced",
       role: "Full Stack Developer",
       images: [
-        "",
-        "",
-        ""
+        "/assets/project-2.png",
       ],
       description:
         "Task management system with authentication and REST APIs.",
@@ -86,8 +84,6 @@ const Projects = () => {
       role: "Backend Developer",
 images: [
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200",
-        "",
-        ""
       ],      description:
         "Scalable backend API with authentication and structured endpoints.",
       impact: ["REST API design", "Auth middleware"],
