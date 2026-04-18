@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  @apply bg-neutral-950 text-white font-sans;
+}
+
+/* FIX: smooth scroll fallback for browsers that don't support
+   framer-motion scroll or JS-based scrollTo */
+html {
+  scroll-behavior: smooth;
+}
+
+/* FIX: prevent layout shift from scrollbar appearing/disappearing */
+html {
+  overflow-y: scroll;
+}
+
+/* FIX: better image loading performance sitewide */
+img {
+  content-visibility: auto;
+}
