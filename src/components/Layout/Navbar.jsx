@@ -58,7 +58,7 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto px-5">
           <div className="flex items-center justify-between h-16">
-            {/* LOGO - Enhanced with glow effect */}
+            {/* LOGO - Enhanced with glow effect
             <button
               onClick={() => scrollToSection("home")}
               className="group relative flex items-center gap-1 text-xl font-semibold text-white"
@@ -69,9 +69,25 @@ const Navbar = () => {
               <span className="text-primary group-hover:translate-x-[2px] group-hover:scale-125 transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(var(--primary-rgb),0.8)]">
                 .
               </span>
-              {/* Glow effect on hover */}
+              {/* Glow effect on hover 
               <span className="absolute inset-0 -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl bg-primary/20 rounded-full scale-150" />
-            </button>
+            </button> */}
+
+            <button
+  onClick={() => scrollToSection("home")}
+  className="group relative flex items-center"
+>
+  <img
+    src="/assets/HS-Logo.png"
+    alt="logo"
+    className="h-16 w-auto object-contain transition-all duration-300 
+    group-hover:scale-110 
+    group-hover:drop-shadow-[0_0_10px_rgba(6,182,212,0.6)]"
+  />
+
+  {/* Glow effect (same as before) */}
+  <span className="absolute inset-0 -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl bg-primary/20 rounded-full scale-150" />
+</button>
 
             {/* DESKTOP NAV - Enhanced with underline animations */}
             <div className="hidden md:flex items-center gap-1 p-1 rounded-xl bg-neutral-900/60 border border-neutral-800 backdrop-blur-md">
